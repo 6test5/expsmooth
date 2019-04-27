@@ -16,4 +16,8 @@ What allows to achieve the best results in forecasting.
 ---Preps---
 1. Put the python file in the directory of your Excel book.
 1. To start your work with function you should rename the book to 'expsmooth' and save it as '.xlsm'
-2. Open the xlsm book and press Import function from the tab xlwings on the ribbon. 
+2. Open the xlsm book and press Import function from the tab xlwings on the ribbon.
+
+---Use---
+1. In empty cell type =expsmooth( and highlight the cell range with your data.
+2. If it returns the Object required problem press Alt+F11 and choose VBAProject in the left column, then go Tools-References on the ribbon and put a tick near xlwings.
